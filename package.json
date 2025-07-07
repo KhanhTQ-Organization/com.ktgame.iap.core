@@ -1,0 +1,14 @@
+{
+  "name": "com.ktgame.iap.core",
+  "version": "1.0.0",
+  "displayName": "com.ktgame.iap.core",
+  "description": "core iap",
+  "author": {
+    "name": "ktgame",
+    "email": "khanhquang0912qh@gmail.com",
+    "url": "https://github.com/KhanhTQ-hub"
+  },
+  "publishConfig": {
+    "registry": "http://3.25.208.95:4873"
+  }
+}

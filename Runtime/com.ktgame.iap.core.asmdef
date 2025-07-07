@@ -1,0 +1,14 @@
+{
+    "name": "com.ktgame.iap.core",
+    "rootNamespace": "com.ktgame.iap.core",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
