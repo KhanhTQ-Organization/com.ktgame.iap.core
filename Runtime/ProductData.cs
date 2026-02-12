@@ -10,11 +10,23 @@ namespace com.ktgame.iap.core
 		[SerializeField] private PurchaseType type;
 		[SerializeField] private string price;
 
-		public string Id => id;
+		public string Id
+		{
+			get => id;
+			set => id = value;
+		}
 
-		public PurchaseType Type => type;
+		public PurchaseType Type
+		{
+			get => type;
+			set => type = value;
+		}
 
-		public string Price => price;
+		public string Price
+		{
+			get => price;
+			set => price = value;
+		}
 
 		public ProductData(string id, PurchaseType type, string price)
 		{
