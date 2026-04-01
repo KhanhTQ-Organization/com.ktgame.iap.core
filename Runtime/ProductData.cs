@@ -6,33 +6,33 @@ namespace com.ktgame.iap.core
 	[Serializable]
 	public struct ProductData
 	{
-		[SerializeField] private string id;
-		[SerializeField] private PurchaseType type;
-		[SerializeField] private string price;
+		[SerializeField] private string _id;
+		[SerializeField] private PurchaseType _type;
+		[SerializeField] private string _price;
 
 		public string Id
 		{
-			get => id;
-			set => id = value;
+			get => _id;
+			set => _id = value;
 		}
 
 		public PurchaseType Type
 		{
-			get => type;
-			set => type = value;
+			get => _type;
+			set => _type = value;
 		}
 
 		public string Price
 		{
-			get => price;
-			set => price = value;
+			get => _price;
+			set => _price = value;
 		}
 
 		public ProductData(string id, PurchaseType type, string price)
 		{
-			this.id = id;
-			this.type = type;
-			this.price = price;
+			this._id = id;
+			this._type = type;
+			this._price = price;
 		}
 	}
 }
