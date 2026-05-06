@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/KhanhTQ-Organization/com.ktgame.iap.core/compare/v1.0.2...v1.0.3) (2026-05-06)
+
+
+### Bug Fixes
+
+* rl ip scope ([f7797de](https://github.com/KhanhTQ-Organization/com.ktgame.iap.core/commit/f7797dec44672112cb656c02b40a3c34da469c31))
+
 ## [1.0.2](https://github.com/KhanhTQ-Organization/com.ktgame.iap.core/compare/v1.0.1...v1.0.2) (2026-04-01)
 
 
