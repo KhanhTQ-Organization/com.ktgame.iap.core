@@ -2,7 +2,8 @@
   "name": "com.ktgame.iap.core",
   "version": "1.0.3",
   "displayName": "com.ktgame.iap.core",
-  "description": "core iap",
+  "description": "Core IAP contracts (IPurchase, IProduct, events) and a Mockup store. No dependencies.",
+  "unity": "2021.3",
   "author": {
     "name": "ktgame",
     "email": "khanhquang0912qh@gmail.com",

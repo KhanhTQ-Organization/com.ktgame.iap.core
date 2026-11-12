@@ -3,7 +3,7 @@
     public enum PurchaseStatus
     {
         /// <summary>
-        /// Purchasing may be disabled in security settings.
+        /// Purchasing may be disabled in security settings, or the store is not initialized.
         /// </summary>
         PurchasingUnavailable = 0,
 
@@ -13,7 +13,7 @@
         ExistingPurchasePending = 1,
 
         /// <summary>
-        /// The product was reported unavailable by the purchasing system.
+        /// The product was reported unavailable by the purchasing system (or does not exist).
         /// </summary>
         ProductUnavailable = 2,
 
@@ -41,25 +41,23 @@
 
         /// <summary>
         /// A catch all for remaining purchase problems.
-        /// Note: Use Enum.Parse to use this named constant if targeting Unity 5.3 or 5.4.
-        /// Its value differs for 5.5+ which introduced DuplicateTransaction.
         /// </summary>
         Unknown = 7,
-        
-        Unauthorized,
-        
-        InvalidRequest,
-        
-        InvalidAppId,
-        
-        ReceiptValidationFailed,
-        
-        TransactionNotMatch,
-        
-        UnsupportedStore,
-        
-        UnexpectedResponse,
-        
-        RequestTimeout,
+
+        Unauthorized = 8,
+
+        InvalidRequest = 9,
+
+        InvalidAppId = 10,
+
+        ReceiptValidationFailed = 11,
+
+        TransactionNotMatch = 12,
+
+        UnsupportedStore = 13,
+
+        UnexpectedResponse = 14,
+
+        RequestTimeout = 15,
     }
 }

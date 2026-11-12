@@ -10,6 +10,13 @@ namespace com.ktgame.iap.core
 		event Action<PurchaseComplete> PurchaseCompleted;
 		event Action<PurchaseProcess> PurchaseProcessing;
 		event Action<PurchaseComplete> ServerPurchaseValid;
+		
+		event Action<PurchaseRestore> RestoreCompleted
+		{
+			add { }
+			remove { }
+		}
+
 		IPurchaseValidator LocalValidator { get; }
 		IPurchaseValidator ServerValidator { get; }
 		IEnumerable<IProduct> Products { get; }
