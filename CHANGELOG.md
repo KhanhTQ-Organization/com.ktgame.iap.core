@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/KhanhTQ-Organization/com.ktgame.iap.core/compare/v1.0.3...v1.0.4) (2026-11-12)
+
+
+### Bug Fixes
+
+* big update iap core ([6f721a0](https://github.com/KhanhTQ-Organization/com.ktgame.iap.core/commit/6f721a068f38da93e5864a3f7508d6b429771ddc))
+
 ## [1.0.3](https://github.com/KhanhTQ-Organization/com.ktgame.iap.core/compare/v1.0.2...v1.0.3) (2026-05-06)
 
 
